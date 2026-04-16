@@ -1,3 +1,8 @@
+import React from 'react'
+
+
+
+
 const QuickCartSummary = ({ cartItems, cartCount, cartTotal }) => {
   return (
     <section id="cart" className="px-4 py-16 sm:px-6 lg:px-8">

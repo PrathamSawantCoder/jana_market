@@ -3,12 +3,10 @@ import { Leaf, Package2, Truck, Wallet } from 'lucide-react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Categories from './components/Categories'
-import FeaturedProducts from './components/FeaturedProducts'
 import WhyChooseUs from './components/WhyChooseUs'
-import PromoBanner from './components/PromoBanner'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
-import QuickCartSummary from './components/QuickCArtSummary'
+
 
 const categories = [
   {
@@ -143,13 +141,8 @@ function App() {
       <main>
         <Hero />
         <Categories categories={categories} />
-        {/* <FeaturedProducts products={products} onAddToCart={handleAddToCart} /> */}
         <WhyChooseUs features={features} />
-        {/* <PromoBanner /> */}
-        <Testimonials testimonials={testimonials} />
-        {/* <QuickCartSummary cartItems={cartItems} cartCount={cartCount} cartTotal={cartTotal} /> */}
-
-        
+        <Testimonials testimonials={testimonials} />        
       </main>
       <Footer />
     </div>
