@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Categories from './components/Categories'
 import WhyChooseUs from './components/WhyChooseUs'
 import Testimonials from './components/Testimonials'
+import MapSection from './components/MapSection'
 import Footer from './components/Footer'
 
 
@@ -142,7 +143,8 @@ function App() {
         <Hero />
         <Categories categories={categories} />
         <WhyChooseUs features={features} />
-        <Testimonials testimonials={testimonials} />        
+        <Testimonials testimonials={testimonials} />
+        <MapSection />
       </main>
       <Footer />
     </div>
