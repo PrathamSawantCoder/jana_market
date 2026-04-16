@@ -3,10 +3,10 @@ function Categories({ categories }) {
     <section id="categories" className="py-16 sm:py-20">
       <div className="section-shell">
         <div className="section-heading fade-in">
-          <span className="eyebrow">Shop by Category</span>
+          <span className="eyebrow">Find Things by Category</span>
           <h2 className="title">Curated essentials for the modern Asian kitchen.</h2>
           <p className="muted">
-            Explore premium packaged foods, handcrafted sauces, fresh produce, and quality proteins — each chosen for freshness and flavor.
+            Explore premium packaged foods, handcrafted sauces, fresh produce, and quality proteins which are chosen by freshness and flavor.
           </p>
         </div>
 

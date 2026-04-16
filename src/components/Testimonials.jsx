@@ -2,7 +2,7 @@ import { Quote, Star } from 'lucide-react'
 
 function Testimonials({ testimonials }) {
   return (
-    <section className="py-16 sm:py-20">
+    <section id='reviews' className="py-16 sm:py-20">
       <div className="section-shell">
         <div className="section-heading fade-in">
           <span className="eyebrow">Testimonials</span>
